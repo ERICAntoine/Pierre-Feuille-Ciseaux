@@ -1,0 +1,56 @@
+body
+{
+	width: 100vw;
+	height: 100vh;
+}
+
+header
+{
+	height: 10%;
+}
+
+.info
+{
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	z-index: 1000;
+}
+
+.info button
+{
+	margin-left: 41%;
+}
+
+.field-name
+{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.field-manche
+{
+	margin-bottom: 20px;
+}
+
+.field-name input
+{
+	float: right;
+}
+
+.welcome
+{
+	text-align: center;
+}
+
+.game select
+{
+	width: 20%;
+}
+
+.player_choose
+{
+	display: flex;
+	justify-content: center;
+}

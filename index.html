@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pierre-Feuille-Ciseaux</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+	<header>
+		<h1 class="text-center">Bienvenue sur Pierre Feuille Ciseaux</h1>
+	</header>
+	<div class="info">
+		<div class="below-info">
+			<div class="field-name">
+				<label for= "name">Nom</label>
+					<input id="name" type="text" placeholder="Rentrez votre nom...">
+			</div>
+			<div class="field-manche">
+				<label for= "name">Manche</label>
+					<input type="number" name="manche" value="1" min= "1" id="manche">
+			</div>
+				<button type="submit" id="submit" class = "btn btn-primary">Jouer !</button>
+		</div>		
+	</div>
+	<div class="game">
+		<div class = "welcome"></div>
+		<div class= "player_choose">
+			<select id = "choose" class="form-control col-sm-7 ">
+	  			<option>Pierre</option>
+	 			<option>Feuille</option>
+	  			<option>Ciseaux</option>
+			</select>
+			<button id="player_game" class="btn btn-primary"> Lancer</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
